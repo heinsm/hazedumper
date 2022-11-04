@@ -1,7 +1,7 @@
-' 2022-07-04 11:40:28.525533100 UTC
+' 2022-10-27 16:30:41.991727200 UTC
 
 Namespace hazedumper
-    Public Const timestamp as Integer = &H62C2D1AC
+    Public Const timestamp as Integer = &H635AB231
     Public Shared Class netvars
         Public Const cs_gamerules_data as Integer = &H0
         Public Const m_ArmorValue as Integer = &H117CC
@@ -104,8 +104,8 @@ Namespace hazedumper
         Public Const clientstate_delta_ticks as Integer = &H174
         Public Const clientstate_last_outgoing_command as Integer = &H4D2C
         Public Const clientstate_net_channel as Integer = &H9C
-        Public Const convar_name_hash_table as Integer = &H2F190
-        Public Const dwClientState as Integer = &H58CFDC
+        Public Const convar_name_hash_table as Integer = &H301A0
+        Public Const dwClientState as Integer = &H59F194
         Public Const dwClientState_GetLocalPlayer as Integer = &H180
         Public Const dwClientState_IsHLTV as Integer = &H4D48
         Public Const dwClientState_Map as Integer = &H28C
@@ -114,48 +114,48 @@ Namespace hazedumper
         Public Const dwClientState_PlayerInfo as Integer = &H52C0
         Public Const dwClientState_State as Integer = &H108
         Public Const dwClientState_ViewAngles as Integer = &H4D90
-        Public Const dwEntityList as Integer = &H4DDB92C
-        Public Const dwForceAttack as Integer = &H320BE10
-        Public Const dwForceAttack2 as Integer = &H320BE1C
-        Public Const dwForceBackward as Integer = &H320BE64
-        Public Const dwForceForward as Integer = &H320BE58
-        Public Const dwForceJump as Integer = &H52858A8
-        Public Const dwForceLeft as Integer = &H320BE70
-        Public Const dwForceRight as Integer = &H320BE7C
-        Public Const dwGameDir as Integer = &H62B900
-        Public Const dwGameRulesProxy as Integer = &H52F90CC
-        Public Const dwGetAllClasses as Integer = &HDE9CAC
-        Public Const dwGlobalVars as Integer = &H58CCE0
-        Public Const dwGlowObjectManager as Integer = &H5324588
-        Public Const dwInput as Integer = &H522CF00
-        Public Const dwInterfaceLinkList as Integer = &H96E944
-        Public Const dwLocalPlayer as Integer = &HDBF4CC
-        Public Const dwMouseEnable as Integer = &HDC51D8
-        Public Const dwMouseEnablePtr as Integer = &HDC51A8
-        Public Const dwPlayerResource as Integer = &H320A190
-        Public Const dwRadarBase as Integer = &H52106A4
-        Public Const dwSensitivity as Integer = &HDC5074
-        Public Const dwSensitivityPtr as Integer = &HDC5048
-        Public Const dwSetClanTag as Integer = &H8A410
-        Public Const dwViewMatrix as Integer = &H4DCD244
-        Public Const dwWeaponTable as Integer = &H522D9C4
+        Public Const dwEntityList as Integer = &H4DFBE54
+        Public Const dwForceAttack as Integer = &H3229CBC
+        Public Const dwForceAttack2 as Integer = &H3229CC8
+        Public Const dwForceBackward as Integer = &H3229C68
+        Public Const dwForceForward as Integer = &H3229CEC
+        Public Const dwForceJump as Integer = &H52B7BDC
+        Public Const dwForceLeft as Integer = &H3229C74
+        Public Const dwForceRight as Integer = &H3229C80
+        Public Const dwGameDir as Integer = &H63AD80
+        Public Const dwGameRulesProxy as Integer = &H532B40C
+        Public Const dwGetAllClasses as Integer = &HE07FDC
+        Public Const dwGlobalVars as Integer = &H59EE58
+        Public Const dwGlowObjectManager as Integer = &H5356910
+        Public Const dwInput as Integer = &H5259428
+        Public Const dwInterfaceLinkList as Integer = &H999154
+        Public Const dwLocalPlayer as Integer = &HDE6964
+        Public Const dwMouseEnable as Integer = &H5235088
+        Public Const dwMouseEnablePtr as Integer = &H5235058
+        Public Const dwPlayerResource as Integer = &H3228000
+        Public Const dwRadarBase as Integer = &H523292C
+        Public Const dwSensitivity as Integer = &HDEAB80
+        Public Const dwSensitivityPtr as Integer = &HDEAB80
+        Public Const dwSetClanTag as Integer = &H8DA80
+        Public Const dwViewMatrix as Integer = &H4DECC84
+        Public Const dwWeaponTable as Integer = &H525A504
         Public Const dwWeaponTableIndex as Integer = &H326C
-        Public Const dwYawPtr as Integer = &HDC4E38
-        Public Const dwZoomSensitivityRatioPtr as Integer = &HDCB620
-        Public Const dwbSendPackets as Integer = &HD8422
-        Public Const dwppDirect3DDevice9 as Integer = &HA6050
-        Public Const find_hud_element as Integer = &H2DFF59D0
-        Public Const force_update_spectator_glow as Integer = &H3BDCEA
-        Public Const interface_engine_cvar as Integer = &H3EA3C
-        Public Const is_c4_owner as Integer = &H3CAD70
+        Public Const dwYawPtr as Integer = &HDEA910
+        Public Const dwZoomSensitivityRatioPtr as Integer = &HDF0380
+        Public Const dwbSendPackets as Integer = &HDCF92
+        Public Const dwppDirect3DDevice9 as Integer = &HA62C0
+        Public Const find_hud_element as Integer = &H26B5D9F0
+        Public Const force_update_spectator_glow as Integer = &H3D716A
+        Public Const interface_engine_cvar as Integer = &H3FA9C
+        Public Const is_c4_owner as Integer = &H3E49A0
         Public Const m_bDormant as Integer = &HED
         Public Const m_bIsLocalPlayer as Integer = &H3628
         Public Const m_flSpawnTime as Integer = &H103C0
         Public Const m_pStudioHdr as Integer = &H2950
-        Public Const m_pitchClassPtr as Integer = &H5210940
-        Public Const m_yawClassPtr as Integer = &HDC4E38
-        Public Const model_ambient_min as Integer = &H590054
-        Public Const set_abs_angles as Integer = &H1E59F0
-        Public Const set_abs_origin as Integer = &H1E5830
+        Public Const m_pitchClassPtr as Integer = &H5234F80
+        Public Const m_yawClassPtr as Integer = &HDEA910
+        Public Const model_ambient_min as Integer = &H5A118C
+        Public Const set_abs_angles as Integer = &H1E5090
+        Public Const set_abs_origin as Integer = &H1E4ED0
     End Class
 End Namespace
